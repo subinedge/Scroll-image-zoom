@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.background {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #04FEBA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100vmin;
+}
+
+.container p {
+  font-family: Merriweather, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 70vmin;
+  text-align: justify;
+  text-transform: none;
+}
+
+.image {
+  background: #fff;
+  -webkit-box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
+  border: 15px solid #fff;
+  border-width: 1vmin 1vmin 10vmin 1vmin;
+  height: 70vmin;
+  overflow: hidden;
+  width: 70vmin;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=styles.css.map */
